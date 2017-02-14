@@ -6,7 +6,7 @@ var gulp = require('gulp');
 var shell = require('gulp-shell');
 
 /*
- Tarea Build ------------------------------------------------------
+ Tarea Build -------------------------------------------------------
 */
 
 gulp.task('build', function() {
@@ -22,10 +22,10 @@ gulp.task('deploy', function () {
   return gulp.src('').pipe(shell(["./scripts/deploy-gitbook"]));
 });
 
-/*
- Tarea Push al Repositorio----------------------------------------
-*/
 
+/*
+ Tarea Push al Repositorio -----------------------------------------
+*/
 
 gulp.task('push-repo', function(){
     return gulp.src('').pipe(shell([
@@ -34,3 +34,10 @@ gulp.task('push-repo', function(){
         'git push origin master'
     ]))
 });
+
+
+/*
+ Tarea por defecto -------------------------------------------------
+*/
+
+gulp.task('default', ['build', 'deploy']);
