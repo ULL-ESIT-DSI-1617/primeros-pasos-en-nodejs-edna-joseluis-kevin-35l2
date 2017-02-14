@@ -25,7 +25,7 @@ gulp.task('deploy', function () {
 
 
 gulp.task('deploy', function() {
-      return gulp.src('./minified/**/*')
+      return gulp.src('./gh-pages/**/*')
         .pipe(ghPages());
     });
 
