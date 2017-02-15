@@ -16,7 +16,6 @@ Para ello vamos a partir de un fork del repo enten/gitbook-boilerplate que ofrec
     * Despliegue el libro en su máquina virtual del iaas.ull.es siguiendo las instrucciones en
             * SERVICIO IAAS de la ULL
             * Como Desplegar una Aplicación Web en iaas.ull.es
-    * Despliegue el libro en Heroku
 
 ## Autores
 
