@@ -37,6 +37,17 @@ gulp.task('serve', function() {
 });
 
 
+/* Tarea publicacion gitbook ---------------------------------------
+
+gulp.task('deploy-gitbook', function(){
+  return gulp.src('').pipe(shell([
+  'git add . '+
+  'git commit -m "Despliegue a Gitbook" '+
+  'git push gb master'
+  ]))
+  });
+
+*/
 
 // Tarea por defecto -------------------------------------------------
 
