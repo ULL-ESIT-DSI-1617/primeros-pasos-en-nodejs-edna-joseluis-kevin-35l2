@@ -38,6 +38,7 @@ gulp.task('serve', function() {
 
 /* Tarea publicacion gitbook ---------------------------------------
 
+<<<<<<< HEAD
 -gulp.task('push-repo', function(){
  -    return gulp.src('').pipe(shell([
  -        'git add . '+
@@ -45,6 +46,17 @@ gulp.task('serve', function() {
  -        'git push origin master'
  -    ]))
  -});
+=======
+/* Tarea publicacion gitbook ---------------------------------------
+
+gulp.task('deploy-gitbook', function(){
+  return gulp.src('').pipe(shell([
+  'git add . '+
+  'git commit -m "Despliegue a Gitbook" '+
+  'git push gb master'
+  ]))
+  });
+>>>>>>> 8a505d2f2466c4b63cac803db2e20683d0abaa48
 
 */
 
