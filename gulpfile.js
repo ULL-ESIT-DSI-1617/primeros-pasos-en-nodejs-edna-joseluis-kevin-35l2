@@ -41,6 +41,13 @@ gulp.task('push-repo', function(){
 });
 
 
+// Tarea publicacion en local ---------------------------------------
+
+gulp.task('serve', function() {
+  return gulp.src('').pipe(shell(['gitbook serve --lrport 99990 --port 43210 `pwd` gh-pages']));
+});
+
+
 
 // Tarea por defecto -------------------------------------------------
 
