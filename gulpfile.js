@@ -30,21 +30,10 @@ gulp.task('deploy', function() {
     });
 
 
-// Tarea Push al Repositorio -----------------------------------------
-
-gulp.task('push-repo', function(){
-    return gulp.src('').pipe(shell([
-        'git add . '+
-        'git commit -m "Prueba" '+
-        'git push origin master'
-    ]))
-});
-
-
 // Tarea publicacion en local ---------------------------------------
 
 gulp.task('serve', function() {
-  return gulp.src('').pipe(shell(['gitbook serve --lrport 99990 --port 43210 `pwd` gh-pages']));
+  return gulp.src('').pipe(shell(['gitbook serve --lrport 99990 --port 43210 ./txt gh-pages']));
 });
 
 
