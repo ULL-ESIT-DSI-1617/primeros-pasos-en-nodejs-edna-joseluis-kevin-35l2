@@ -36,17 +36,7 @@ gulp.task('serve', function() {
   return gulp.src('').pipe(shell(['gitbook serve --lrport 99990 --port 43210 ./txt gh-pages']));
 });
 
-/* Tarea publicacion gitbook ---------------------------------------
 
-<<<<<<< HEAD
--gulp.task('push-repo', function(){
- -    return gulp.src('').pipe(shell([
- -        'git add . '+
- -        'git commit -m "Prueba" '+
- -        'git push origin master'
- -    ]))
- -});
-=======
 /* Tarea publicacion gitbook ---------------------------------------
 
 gulp.task('deploy-gitbook', function(){
@@ -59,6 +49,9 @@ gulp.task('deploy-gitbook', function(){
 >>>>>>> 8a505d2f2466c4b63cac803db2e20683d0abaa48
 
 */
+
+
+
 
 // Tarea por defecto -------------------------------------------------
 
