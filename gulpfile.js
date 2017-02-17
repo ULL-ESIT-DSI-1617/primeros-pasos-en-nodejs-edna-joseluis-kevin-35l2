@@ -1,7 +1,3 @@
-
-// Dependencias
-
-
 var gulp = require('gulp');
 var shell = require('gulp-shell');
 var ghPages = require('gulp-gh-pages');
@@ -30,11 +26,16 @@ gulp.task('deploy', function() {
     });
 
 
-// Tarea publicacion en local ---------------------------------------
+// Tarea Serve ---------------------------------------
 
 gulp.task('serve', function() {
   return gulp.src('').pipe(shell(['gitbook serve --lrport 99990 --port 43210 ./txt gh-pages']));
 });
+
+
+// Tarea por defecto -------------------------------------------------
+
+gulp.task('default', ['build', 'deploy']);
 
 
 /* Tarea publicacion gitbook ---------------------------------------
@@ -53,7 +54,3 @@ gulp.task('deploy-gitbook', function(){
 
 
 
-// Tarea por defecto -------------------------------------------------
-
-
-gulp.task('default', ['build', 'deploy']);
