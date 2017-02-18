@@ -3,15 +3,14 @@ var express = require('express');
 
 // instanciar
 var app = express();
-var path = require('path');
 app.set('port', (process.env.PORT || 8080));
 
 
 // Ruteo
-app.use(express.static(path.join('/gh-pages')));
+app.use(express.static('./gh-pages/'));
 
 app.get('/', function (req, res) {
-    res.sendFile('index');
+    res.sendFile('index.html');
 });
 
 
