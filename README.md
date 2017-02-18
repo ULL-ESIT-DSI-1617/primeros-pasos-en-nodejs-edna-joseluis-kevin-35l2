@@ -37,7 +37,7 @@ Kevin Estévez Expósito
 
 [Despliege del libro en gh-pages](https://ull-esit-dsi-1617.github.io/primeros-pasos-en-nodejs-edna-joseluis-kevin-35l2/)
 
-[Despliegue del libro en Iaas](http://10.6.129.247:8080/)
+[Despliegue del libro en Iaas](http://10.6.128.96:8080/)
 
 
 
