@@ -39,7 +39,11 @@ Kevin Estévez Expósito
 
 [Despliegue del libro en Gitbook](https://alu0100821390.gitbooks.io/primeros-pasos-en-nodejs-edna-joseluis-kevin-35l2/) - Kevin Estévez Expósito
 
+[Despliegue del libro en Gitbook](https://ednagc.gitbooks.io/primeros-pasos-en-nodejs-edna-joseluis-kevin-35l2/) - Edna Liliana Galiano Camacho
+
 [Despliegue del libro en Iaas](http://10.6.128.96:8080/) - Kevin Estévez Expósito
+
+[Despliegue del libro en Iaas](http://10.6.129.247:8080/) - Edna Liliana Galiano Camacho
 
 
 
